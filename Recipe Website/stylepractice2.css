@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navContainer {
+    background-color: rgb(88, 88, 157);
+    padding: 15px;
+
+}
+
+#navList {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#navLogo {
+    color: white;
+    font-size: 35px;
+
+}
+
+#navItems {
+    color: white;
+    font-size: 35px;
+    text-decoration: none;  
+}
+
+.contentBox {
+    border: 1px solid black;
+    margin: auto;
+    width: 53vw;
+
+}
+
+.item {
+    margin: 30px;
+    display: flex;
+    padding: 30px 10px;
+
+}
+
+.leftBox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rightBox {
+    width: 135px;
+    object-fit: cover;
+}
+
+.rightBox img {
+    
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+
+
+

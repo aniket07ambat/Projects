@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            background-color: blue;
+            padding: 13px;
+        }
+
+        .navbar{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+
+        }
+        nav ul {
+            list-style: none;
+            font-size: 25px;
+            color: white;
+        }
+
+        .container {
+            border: 1px solid black;
+            width: 782px;
+            height: 760px;
+            margin: auto;
+            /* box-shadow: 2px 2px 2px 2px black; */
+            display: flex;
+            flex-flow: column wrap;
+            /* justify-content: ; */
+        }
+
+        .imgcontainer {
+            border: 1px solid white;
+            border-radius: 15px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 60% 40%;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+    <nav>
+        <ul class="navbar">
+            <li>Aniket's dhabba</li>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    </div>
+    <div class="grid-container">
+    <div class="container">
+       <h2>Gulab Jamun</h2> 
+       <h3>Ingredients</h3>
+       <ul>
+        <li>Sugar</li>
+        <li>Bread</li>
+        <li>Oil</li>
+       </ul>
+       <h3>Recipe</h3>
+       <ol>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat architecto reiciendis, quibusdam porro ipsa eveniet quo. Deleniti nam voluptas harum?</li>
+        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, cupiditate at. Fuga dolores nisi quis.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dicta quod itaque nobis, qui est!</li>
+        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse fugit eum optio dicta?</li>
+       </ol>
+       <div >
+        <img class="imgcontainer" src="/Recipe Website/bread-gulab-jamun-recipe.jpg" width="200px" alt="Gulab Jamun">
+       </div>
+    </div>
+    </div>
+</body>
+</html>
