@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .navContainer {
@@ -19,6 +20,11 @@
     color: white;
     font-size: 35px;
 
+}
+
+a {
+    text-decoration: none;
+    color: azure;
 }
 
 #navItems {
@@ -50,11 +56,11 @@
 
 .rightBox {
     width: 135px;
-    object-fit: cover;
 }
 
 .rightBox img {
     
+    object-fit: cover;
     border: 1px solid white;
     border-radius: 30px;
 }
